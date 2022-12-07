@@ -11,7 +11,7 @@ const Login = () => {
     // getuserdetail()
   },[])
   const history = useNavigate();
-  const host = "http://localhost:5000";
+  const host = "http://http://35.77.196.188:5000";
 
 
   const getuserdetail = async () => {

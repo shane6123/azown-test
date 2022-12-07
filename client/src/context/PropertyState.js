@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import PropertyContext from "./PropertyContext";
 
 const PropertyState = (props) => {
-  const host = "http://localhost:5000";
+  const host = "http://35.77.196.188:5000";
   const rrpropInitial = [];
   const [rrprop, setrrprop] = useState(rrpropInitial);
   const [dash, setdash] = useState([]);

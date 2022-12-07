@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 const Signup = (props) => {
-  const host = "http://localhost:5000"
+  const host = "http://http://35.77.196.188:5000"
   const history = useNavigate()
   const [credential, setcredential] = useState({name :"", email: "", password: "" });
   const signup = async (name, email, password) => {
