@@ -8,7 +8,7 @@ const Adminlogin = () => {
     const context = useContext(propertyContext)
     const {  getuserdetail}=context
     const history = useNavigate();
-    const host = "http://localhost:5000";
+    const host = "http://35.77.196.188:5000";
     const login = async (email, password) => {
       const responce = await fetch(`${host}/api/admin/adminlogin`, {
         method: "POST",

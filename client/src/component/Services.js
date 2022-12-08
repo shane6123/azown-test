@@ -13,7 +13,7 @@ const Services = () => {
   } = context;
   const [loading, setloading] = useState(false);
   const [service, setservice] = useState([]);
-  const host = "http://localhost:5000";
+  const host = "http://35.77.196.188:5000";
   const { name } = useParams();
   const getservice = async () => {
     const responce = await fetch(`${host}/api/service/${name}`, {
