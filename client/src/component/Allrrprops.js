@@ -29,19 +29,18 @@ const Allrrprops = () => {
                   <div class="card-body">
                     <h6>{property.title}</h6>
                     <p>{property.description}</p>
-                  
-                    {/* {userdeatils[0].usertype === "broker" ? (
+                    <h6 className="m-2">2BHK</h6>
+                    <h6 className="m-2">2</h6>
+                    <h6 className="m-2">north</h6>
+                    {localStorage.getItem("userdetail") === "broker" ? (
                       <button onClick={() => handlereq(property._id)}>
                         Handler Req
                       </button>
                     ) : (
-                      <button onClick={() => lead(property._id)}>Lead</button>
-                    )} */}
-                    <h6 className="m-2">2BHK</h6>
-                    <h6 className="m-2">2</h6>
-                    <h6 className="m-2">north</h6>
-
-                    <button onClick={() => lead(property._id)}>Lead</button>
+                      <button onClick={() => lead(property._id)}>Get Connect to Owner</button>
+                    )}
+                    {/* <button onClick={() => lead(property._id)}>Get Contact to Owner</button> */}
+                    
 
                   </div>
                 </div>

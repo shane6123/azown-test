@@ -92,7 +92,7 @@ const Myrrprop = () => {
                   </div>
                 </div>
               </div>
-              {/* <button
+              <button
                 type="button"
                 class="btn "
                 data-bs-toggle="modal"
@@ -100,8 +100,8 @@ const Myrrprop = () => {
                 onClick={()=>handreq(propert._id)}
               >
                 Check handler
-              </button> */}
-              {/* <div
+              </button>
+              <div
                 class="modal fade"
                 id="exampleModal2"
                 tabindex="-1"
@@ -148,7 +148,7 @@ const Myrrprop = () => {
                     </div>
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         );
